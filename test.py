@@ -1,3 +1,5 @@
-def start():
+arquivo = open("file.txt", "r")
+print(arquivo.readline())
 
-    print("Ola Mundo")
+with open("file.txt", "r") as arquivo:
+    print(arquivo.readline())
